@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="xterm.css" />
+    <script src="xterm.js"></script>
+</head>
+<body>
+<div id="terminal"></div>
+<script>
+    const config = {
+        rendererType: 'canvas',
+        fontFamily: 'monospace',
+    };
+    const term = new Terminal(config);
+    term.resize(10, 5);
+    term.open(document.getElementById('terminal'));
+    term.writeln('gjqy{}[]');
+    term.write('gjqy{}[] ');
+</script>
+</body>
+</html>
+
