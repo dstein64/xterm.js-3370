@@ -1,2 +1,3 @@
 # xterm.js-3370
-❎🖥️3️⃣3️⃣7️⃣0️⃣
+
+An example prepared for xterm.js PR [#3370](https://github.com/xtermjs/xterm.js/pull/3370).
